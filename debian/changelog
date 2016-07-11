@@ -1,3 +1,10 @@
+trac-navadd (0.3+svn13939-1~aroth~ppa2) xenial; urgency=medium
+
+  * switch to pybuild
+  * add missing SOURCES.txt
+
+ -- Andreas Roth <aroth@arsoft-online.com>  Mon, 11 Jul 2016 07:49:36 +0200
+
 trac-navadd (0.3+svn13939-1~aroth~ppa1) trusty; urgency=medium
 
   * latest upstream version 0.3

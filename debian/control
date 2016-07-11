@@ -1,15 +1,20 @@
 Source: trac-navadd
 Section: web
 Priority: optional
-Build-Depends-Indep: python-setuptools (>= 0.5)
-Build-Depends: python-support, python-all-dev, cdbs, debhelper
+Standards-Version: 3.9.7
+Build-Depends: debhelper (>= 9), python (>= 2.7), dh-python, python-setuptools
+X-Python-Version: >=2.7
 Maintainer: Python Applications Packaging Team <python-apps-team@lists.alioth.debian.org>
 Uploaders: W. Martin Borgert <debacle@debian.org>
-Standards-Version: 3.9.5
-XS-Python-Version: all
 Homepage: http://trac-hacks.org/wiki/NavAddPlugin
 
 Package: trac-navadd
 Architecture: all
 Depends: ${python:Depends}, ${misc:Depends}, trac
-Description: A plugin for adding navigation items into one of the navigation bars.
+Description: plugin for adding navigation items into one of the navigation bars
+ Trac allows existing items in the main and meta navigation bar menu items
+ to be customized, however it does not allow custom items to be added. This
+ plugin allows you to add custom items ("buttons") to both the main and the
+ meta navigation bar. Item name, title and URL can be specified in trac.ini,
+ as well  as an optional permission the user is required to have to see the
+ item.
