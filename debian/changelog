@@ -1,3 +1,9 @@
+trac-navadd (0.4+svn16171-1~aroth1) yakkety; urgency=medium
+
+  * latest upstream version 0.4
+
+ -- Andreas Roth <aroth@arsoft-online.com>  Mon, 02 Jan 2017 15:04:33 +0100
+
 trac-navadd (0.3+svn13939-1~aroth~ppa2) xenial; urgency=medium
 
   * switch to pybuild

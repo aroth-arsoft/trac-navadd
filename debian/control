@@ -1,7 +1,7 @@
 Source: trac-navadd
 Section: web
 Priority: optional
-Standards-Version: 3.9.7
+Standards-Version: 3.9.8
 Build-Depends: debhelper (>= 9), python (>= 2.7), dh-python, python-setuptools
 X-Python-Version: >=2.7
 Maintainer: Python Applications Packaging Team <python-apps-team@lists.alioth.debian.org>
