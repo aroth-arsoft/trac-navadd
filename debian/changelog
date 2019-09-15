@@ -1,3 +1,11 @@
+trac-navadd (0.4+svn17497-1) disco; urgency=medium
+
+  * Automatic update 0.4 from https://trac-
+    hacks.org/browser/navaddplugin/trunk/?format=zip&rev=17497
+    revision 17497
+
+ -- Andreas Roth <aroth@arsoft-online.com>  Sun, 15 Sep 2019 18:38:37 +0200
+
 trac-navadd (0.4+svn16171-1~aroth1) yakkety; urgency=medium
 
   * latest upstream version 0.4
